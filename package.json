@@ -1,0 +1,23 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "Resume\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DDigital \u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[D Resume",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malanski/MyResume.git"
+  },
+  "author": "Ulisses Malanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malanski/MyResume/issues"
+  },
+  "homepage": "https://github.com/malanski/MyResume#readme",
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
+}
