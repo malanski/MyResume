@@ -3,6 +3,7 @@
 }
 
 body, html {
+  overflow-x: hidden;
   font-family: "Montserrat Alternates", sans-serif;
   padding: 0;
   margin: 0;
@@ -13,29 +14,23 @@ body, html {
 nav {
   background: linear-gradient(90deg, #379137, #081108, #020a02, #000000);
   background-size: 130%;
-  width: 100vw;
+  width: 99vw;
   height: 20px;
 }
 
 .topo {
-  width: 100vw;
+  width: 95vw;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.column-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .row {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .hello {
@@ -64,7 +59,7 @@ nav {
 h1 {
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -76,34 +71,164 @@ h2 {
 
 h3 {
   color: white;
+  line-height: 28px;
 }
 
-.principais {
+.green {
+  color: #36d036;
+}
+
+.habilidades {
   text-align: justify;
 }
-.principais .princip {
+.habilidades .titulo {
   margin-left: 20px;
   margin-right: 20px;
+  text-align: right;
 }
-.principais h5 {
+.habilidades .especifico {
+  margin-left: 20px;
+}
+.habilidades h5 {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   color: white;
-  font-size: 40px;
-  text-align: justify;
+  font-size: 30px;
 }
-.principais p {
+.habilidades .green {
+  color: #36d036;
+}
+.habilidades h6 {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #716f6b;
+  padding-bottom: 10px;
+  height: 30%;
+  border-bottom: 1px solid #716f6b;
+}
+.habilidades span {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: -45px;
   padding: 0;
-  color: blue;
+  color: #6363c7;
   font-size: 45px;
   text-align: justify;
 }
-.principais img {
+.habilidades img {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 30vw;
+}
+
+.estudos {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  margin-right: 20px;
+  height: 520px;
+}
+table th {
+  border-bottom: 1px solid white;
+  padding: 0px;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: left;
+  height: 150px;
+}
+table th span {
+  margin-top: -10px;
+  font-size: 20px;
+}
+table th .escola {
+  color: #3114d8;
+  font-size: 15px;
+}
+table td {
+  align-self: baseline;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+.razoes {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.razoes h3 {
+  color: #3114d8;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.razoes .motivos {
+  width: 100%;
+  margin-right: 30px;
+}
+.razoes .motivos .motivo {
+  width: 30vw;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+.razoes .motivos .motivo i {
+  font-size: 60px;
+  margin: 15px;
+  color: #36d036;
+}
+.razoes .motivos .motivo h4 {
+  font-size: 20px;
+  color: white;
+}
+.razoes .motivos .motivo h5 {
+  font-size: 15px;
+  color: #8c8c8c;
+}
+
+footer {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer .foot-head {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer h3 {
+  font-size: 35px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h4 {
+  color: #3114d8;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h5 {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer h5 a {
+  text-decoration: none;
+  color: #3114d8;
 }
 
 /*# sourceMappingURL=index.css.map */
