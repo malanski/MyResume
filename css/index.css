@@ -78,6 +78,28 @@ h3 {
   color: #36d036;
 }
 
+.flecha {
+  margin-top: 10px;
+  height: 200px;
+}
+.flecha .bounce {
+  animation: bouncing 1s infinite linear;
+}
+
+@keyframes bouncing {
+  from {
+    height: 100%;
+    margin-top: 0;
+  }
+  50% {
+    height: 50%;
+    margin-top: 100%;
+  }
+  to {
+    height: 75%;
+    margin-top: 0;
+  }
+}
 .habilidades {
   text-align: justify;
 }
