@@ -102,6 +102,11 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.habilidades img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30vw;
+}
 .habilidades .especifico {
   margin-left: 20px;
 }
@@ -141,11 +146,6 @@ nav {
   color: #6363c7;
   font-size: 45px;
 }
-.habilidades img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 30vw;
-}
 
 .estudos {
   margin-top: 120px;
@@ -156,8 +156,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
-table {
+.estudos table {
   border: 1px solid white;
   border-radius: 5px;
   color: white;
@@ -165,7 +164,7 @@ table {
   margin-right: 20px;
   height: 420px;
 }
-table th {
+.estudos table th {
   border-bottom: 1px solid white;
   padding: 0px;
   font-size: 25px;
@@ -173,15 +172,15 @@ table th {
   text-align: left;
   height: 150px;
 }
-table th span {
+.estudos table th span {
   margin-top: -10px;
   font-size: 20px;
 }
-table th .escola {
+.estudos table th .escola {
   color: #3114d8;
   font-size: 14px;
 }
-table td {
+.estudos table td {
   align-self: baseline;
   margin-bottom: 0;
   line-height: 20px;
@@ -200,19 +199,24 @@ table td {
 }
 .razoes .motivos {
   width: 100%;
-  margin-right: 30px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
 }
 .razoes .motivos .motivo {
-  width: 30vw;
+  width: 29vw;
   list-style-type: none;
   margin-bottom: 10px;
+  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
 }
 .razoes .motivos .motivo i {
-  font-size: 60px;
-  margin: 15px;
+  font-size: 57px;
+  margin: 10px;
   color: #36d036;
 }
 .razoes .motivos .motivo h4 {
@@ -222,6 +226,7 @@ table td {
 .razoes .motivos .motivo h5 {
   font-size: 15px;
   color: #8c8c8c;
+  text-align: justify;
 }
 
 footer {
@@ -235,12 +240,16 @@ footer {
 footer .foot-head {
   margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 footer h3 {
   font-size: 35px;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+  color: white;
 }
 footer h4 {
   color: #3114d8;
@@ -257,6 +266,98 @@ footer h5 {
 footer h5 a {
   text-decoration: none;
   color: #3114d8;
+}
+footer .fone {
+  text-align: right;
+}
+
+@media screen and (max-width: 360px) {
+  .habilidades {
+    flex-direction: column;
+  }
+  .habilidades img {
+    order: -1;
+  }
+  .habilidades .especifico .habili {
+    width: 90vw;
+  }
+
+  .estudos {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .estudos table {
+    width: 99wv;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .estudos .awari {
+    order: -1;
+  }
+
+  .razoes .motivos {
+    flex-direction: column;
+  }
+  .razoes .motivos .motivo {
+    width: 95vw;
+  }
+  .razoes h3 {
+    font-size: 25px;
+  }
+
+  footer .foot-head {
+    flex-direction: column;
+  }
+  footer .row {
+    flex-direction: column;
+  }
+  footer h5 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .habilidades {
+    flex-direction: column;
+  }
+  .habilidades img {
+    order: -1;
+  }
+  .habilidades .especifico .habili {
+    width: 90vw;
+  }
+
+  .estudos {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .estudos table {
+    width: 99wv;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .estudos .awari {
+    order: -1;
+  }
+
+  .razoes .motivos {
+    flex-direction: column;
+  }
+  .razoes .motivos .motivo {
+    width: 95vw;
+  }
+  .razoes h3 {
+    font-size: 25px;
+  }
+
+  footer .foot-head {
+    flex-direction: column;
+  }
+  footer .row {
+    flex-direction: column;
+  }
+  footer h5 {
+    font-size: 17px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
