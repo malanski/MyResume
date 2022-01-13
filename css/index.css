@@ -18,14 +18,6 @@ nav {
   height: 20px;
 }
 
-.topo {
-  width: 95vw;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -33,19 +25,48 @@ nav {
   justify-content: space-between;
 }
 
-.hello {
+.topo {
+  width: 95vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topo .hello {
   text-align: center;
   font-size: 25px;
   color: #379137;
 }
-.hello i {
+.topo .hello i {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
   animation: spiner 4s infinite linear;
 }
-.hello h4 {
+.topo .hello h4 {
   text-align: center;
+}
+.topo h1 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.topo h2 {
+  text-align: center;
+  color: #3114d8;
+}
+.topo h3 {
+  color: white;
+  line-height: 28px;
+}
+.topo .flecha {
+  margin-top: 10px;
+  height: 200px;
+}
+.topo .flecha .bounce {
+  animation: bouncing 1s infinite linear;
 }
 
 @keyframes spiner {
@@ -56,34 +77,8 @@ nav {
     transform: rotate(360deg);
   }
 }
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 45px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-h2 {
-  text-align: center;
-  color: #3114d8;
-}
-
-h3 {
-  color: white;
-  line-height: 28px;
-}
-
 .green {
   color: #36d036;
-}
-
-.flecha {
-  margin-top: 10px;
-  height: 200px;
-}
-.flecha .bounce {
-  animation: bouncing 1s infinite linear;
 }
 
 @keyframes bouncing {
@@ -102,14 +97,24 @@ h3 {
 }
 .habilidades {
   text-align: justify;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.habilidades .titulo {
+.habilidades .especifico {
+  margin-left: 20px;
+}
+.habilidades .especifico .titulo {
   margin-left: 20px;
   margin-right: 20px;
   text-align: right;
 }
-.habilidades .especifico {
-  margin-left: 20px;
+.habilidades .especifico .habili {
+  padding-top: 20px;
+  width: 30vw;
+  border-bottom: 1px solid #716f6b;
+  padding-bottom: 10px;
 }
 .habilidades h5 {
   margin-top: 0;
@@ -120,24 +125,21 @@ h3 {
 }
 .habilidades .green {
   color: #36d036;
+  font-size: 35;
 }
 .habilidades h6 {
-  margin-top: 10px;
+  margin-top: 0;
   font-size: 21px;
   color: #716f6b;
-  padding-bottom: 10px;
-  height: 30%;
-  border-bottom: 1px solid #716f6b;
 }
 .habilidades span {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 5px;
-  margin-right: -45px;
+  margin-left: 0;
+  margin-right: -37px;
   padding: 0;
   color: #6363c7;
   font-size: 45px;
-  text-align: justify;
 }
 .habilidades img {
   margin-top: 20px;
@@ -146,6 +148,8 @@ h3 {
 }
 
 .estudos {
+  margin-top: 120px;
+  margin-bottom: 70px;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -157,9 +161,9 @@ table {
   border: 1px solid white;
   border-radius: 5px;
   color: white;
-  padding: 20px;
+  padding: 10px;
   margin-right: 20px;
-  height: 520px;
+  height: 420px;
 }
 table th {
   border-bottom: 1px solid white;
@@ -175,7 +179,7 @@ table th span {
 }
 table th .escola {
   color: #3114d8;
-  font-size: 15px;
+  font-size: 14px;
 }
 table td {
   align-self: baseline;
@@ -221,6 +225,8 @@ table td {
 }
 
 footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 0;
