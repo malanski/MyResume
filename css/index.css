@@ -271,6 +271,50 @@ footer .fone {
   text-align: right;
 }
 
+@media screen and (max-width: 414px) {
+  .habilidades {
+    flex-direction: column;
+  }
+  .habilidades img {
+    order: -1;
+  }
+  .habilidades .especifico .habili {
+    width: 90vw;
+  }
+
+  .estudos {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .estudos table {
+    width: 99wv;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .estudos .awari {
+    order: -1;
+  }
+
+  .razoes .motivos {
+    flex-direction: column;
+  }
+  .razoes .motivos .motivo {
+    width: 95vw;
+  }
+  .razoes h3 {
+    font-size: 25px;
+  }
+
+  footer .foot-head {
+    flex-direction: column;
+  }
+  footer .row {
+    flex-direction: column;
+  }
+  footer h5 {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 360px) {
   .habilidades {
     flex-direction: column;

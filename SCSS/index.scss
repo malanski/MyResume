@@ -289,6 +289,61 @@ footer{
     }
 }
 
+@media screen and (max-width:414px) {
+    .habilidades{
+        flex-direction: column;
+
+        img{
+        order: -1;
+
+        }
+        .especifico{
+
+            .habili{
+                width: 90vw;
+    
+            }
+        }
+
+    }
+    .estudos{
+        flex-direction: column;
+        padding: 5px;
+        table{
+            width: 99wv;
+            margin-right: 0;
+            margin-bottom: 20px;
+
+        }
+        .awari{
+            order: -1;
+        }
+    }
+    .razoes{
+        .motivos{
+            flex-direction: column;
+            .motivo{
+                width: 95vw;
+            }
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    footer{
+        .foot-head{
+            flex-direction: column;
+
+        }
+        .row{
+            flex-direction: column;
+        }
+        h5{
+            font-size: 17px;
+        }
+    }
+}
+
 @media screen and (max-width:360px) {
     .habilidades{
         flex-direction: column;
@@ -343,6 +398,7 @@ footer{
         }
     }
 }
+
 @media screen and (max-width:375px) {
     .habilidades{
         flex-direction: column;
