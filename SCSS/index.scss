@@ -201,7 +201,21 @@ nav{
     }
 }
 .projetos{
-    
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+        min-height: 520px;
+        tr{
+            margin-bottom: 0;
+
+        }
+
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .razoes{

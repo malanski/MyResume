@@ -186,6 +186,20 @@ nav {
   line-height: 20px;
 }
 
+.projetos .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  min-height: 520px;
+}
+.projetos .project tr {
+  margin-bottom: 0;
+}
+.projetos .project img {
+  width: 100%;
+}
+
 .razoes {
   width: 100vw;
   margin: 0;
