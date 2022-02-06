@@ -159,6 +159,7 @@ nav{
     
 }
 
+
 .estudos{
     margin-top: 120px;
     margin-bottom: 70px;
@@ -200,7 +201,16 @@ nav{
         }
     }
 }
+
+h3{
+    text-align: center;
+    color: #36d036;
+    font-size: 30px;
+    margin-top: 50px;
+}
 .projetos{
+    margin-top: 50px;
+
     .project{
         display: flex;
         flex-direction: column;
