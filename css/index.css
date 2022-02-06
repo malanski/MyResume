@@ -208,6 +208,7 @@ h3 {
 }
 .projetos .project img {
   width: 100%;
+  margin-top: 20px;
   border-radius: 5px;
 }
 .projetos .project img:hover {
