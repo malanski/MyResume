@@ -215,8 +215,9 @@ h3{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 30%;
         min-height: 520px;
+        width: 50vw;
+
         tr{
             margin-bottom: 0;
 
@@ -224,7 +225,13 @@ h3{
 
         img{
             width: 100%;
+            border-radius: 5px;
         }
+        img:hover{
+            border: 1px solid yellowgreen;
+            box-shadow: 1px 1px 3px yellowgreen;
+        }
+
     }
 }
 
@@ -313,6 +320,9 @@ footer{
         font-size: 25px;
         margin-top: 5px;
         margin-bottom: 5px;
+        i{
+            font-size:35px;
+        }
         a{
             text-decoration: none;
             color: #3114d8;
@@ -355,12 +365,108 @@ footer{
     }
 }
 
+@media screen and (max-width:428px) {
+    .topo{
+        h2{
+            font-size: 20px;
+            width: 99%;
+            margin-left: 0.5%;
+        }
+        h3{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
+    .habilidades{
+        flex-direction: column;
+        
+
+        img{
+        order: -1;
+        width: 70vw;
+
+
+        }
+        .especifico{
+
+            .habili{
+                width: 90vw;
+    
+            }
+        }
+
+    }
+    .estudos{
+        flex-direction: column;
+        padding: 5px;
+        .study{
+            width: 90vw;
+        }
+        table{
+            width: 99wv;
+            margin-right: 0;
+            margin-bottom: 20px;
+
+        }
+        .awari{
+            order: -1;
+        }
+    }
+    .razoes{
+        .motivos{
+            flex-direction: column;
+            .motivo{
+                width: 95vw;
+            }
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .projetos{
+        .project{
+            width: 90vw;
+            height: 650px;
+        }
+    }
+    footer{
+        .foot-head{
+            flex-direction: column;
+
+        }
+        .row{
+            flex-direction: column;
+        }
+        h5{
+            font-size: 17px;
+        }
+        .project-links{
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+
+}
+
 @media screen and (max-width:414px) {
+    .topo{
+        h2{
+            font-size: 20px;
+            width: 99%;
+            margin-left: 0.5%;
+        }
+        h3{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
     .habilidades{
         flex-direction: column;
 
         img{
         order: -1;
+        width: 70vw;
+
 
         }
         .especifico{
@@ -375,6 +481,9 @@ footer{
     .estudos{
         flex-direction: column;
         padding: 5px;
+        .study{
+            width: 90vw;
+        }
         table{
             width: 99wv;
             margin-right: 0;
@@ -396,6 +505,12 @@ footer{
             font-size: 25px;
         }
     }
+    .projetos{
+        .project{
+            width: 90vw;
+            height: 650px;
+        }
+    }
     footer{
         .foot-head{
             flex-direction: column;
@@ -406,16 +521,32 @@ footer{
         }
         h5{
             font-size: 17px;
+        }
+        .project-links{
+            width: 100%;
+            margin-left: 0;
         }
     }
 }
-
-@media screen and (max-width:360px) {
+@media screen and (max-width: 375px) {
+    .topo{
+        h2{
+            font-size: 20px;
+            width: 99%;
+            margin-left: 0.5%;
+        }
+        h3{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
     .habilidades{
         flex-direction: column;
 
         img{
         order: -1;
+        width: 70vw;
+
 
         }
         .especifico{
@@ -430,6 +561,9 @@ footer{
     .estudos{
         flex-direction: column;
         padding: 5px;
+        .study{
+            width: 90vw;
+        }
         table{
             width: 99wv;
             margin-right: 0;
@@ -451,6 +585,12 @@ footer{
             font-size: 25px;
         }
     }
+    .projetos{
+        .project{
+            width: 90vw;
+            height: 650px;
+        }
+    }
     footer{
         .foot-head{
             flex-direction: column;
@@ -461,16 +601,32 @@ footer{
         }
         h5{
             font-size: 17px;
+        }
+        .project-links{
+            width: 100%;
+            margin-left: 0;
         }
     }
 }
-
-@media screen and (max-width:375px) {
+@media screen and (max-width: 360px) {
+    .topo{
+        h2{
+            font-size: 20px;
+            width: 99%;
+            margin-left: 0.5%;
+        }
+        h3{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
     .habilidades{
         flex-direction: column;
 
         img{
         order: -1;
+        width: 70vw;
+
 
         }
         .especifico{
@@ -485,6 +641,9 @@ footer{
     .estudos{
         flex-direction: column;
         padding: 5px;
+        .study{
+            width: 90vw;
+        }
         table{
             width: 99wv;
             margin-right: 0;
@@ -506,6 +665,12 @@ footer{
             font-size: 25px;
         }
     }
+    .projetos{
+        .project{
+            width: 90vw;
+            height: 650px;
+        }
+    }
     footer{
         .foot-head{
             flex-direction: column;
@@ -516,15 +681,32 @@ footer{
         }
         h5{
             font-size: 17px;
+        }
+        .project-links{
+            width: 100%;
+            margin-left: 0;
         }
     }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
+    .topo{
+        h2{
+            font-size: 20px;
+            width: 99%;
+            margin-left: 0.5%;
+        }
+        h3{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
     .habilidades{
         flex-direction: column;
 
         img{
         order: -1;
+        width: 70vw;
+
 
         }
         .especifico{
@@ -539,6 +721,9 @@ footer{
     .estudos{
         flex-direction: column;
         padding: 5px;
+        .study{
+            width: 90vw;
+        }
         table{
             width: 99wv;
             margin-right: 0;
@@ -560,6 +745,12 @@ footer{
             font-size: 25px;
         }
     }
+    .projetos{
+        .project{
+            width: 90vw;
+            height: 650px;
+        }
+    }
     footer{
         .foot-head{
             flex-direction: column;
@@ -570,6 +761,10 @@ footer{
         }
         h5{
             font-size: 17px;
+        }
+        .project-links{
+            width: 100%;
+            margin-left: 0;
         }
     }
 }
