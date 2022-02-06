@@ -55,7 +55,7 @@ nav {
 }
 .topo h2 {
   text-align: center;
-  color: #3114d8;
+  color: #543bdd;
 }
 .topo h3 {
   color: white;
@@ -177,7 +177,7 @@ nav {
   font-size: 20px;
 }
 .estudos table th .escola {
-  color: #3114d8;
+  color: #543bdd;
   font-size: 14px;
 }
 .estudos table td {
@@ -222,7 +222,7 @@ h3 {
   padding: 0;
 }
 .razoes h3 {
-  color: #3114d8;
+  color: #543bdd;
   font-size: 35px;
   text-align: center;
   text-transform: uppercase;
@@ -289,7 +289,7 @@ footer h3 {
   color: white;
 }
 footer h4 {
-  color: #3114d8;
+  color: #543bdd;
   font-size: 22px;
   margin-top: 0;
   margin-bottom: 0;
@@ -305,7 +305,7 @@ footer h5 i {
 }
 footer h5 a {
   text-decoration: none;
-  color: #3114d8;
+  color: #543bdd;
 }
 footer .fone {
   text-align: right;
