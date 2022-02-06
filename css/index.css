@@ -228,6 +228,13 @@ nav {
   color: #8c8c8c;
   text-align: justify;
 }
+.razoes .motivos .motivo:hover {
+  border-top: 15px solid yellowgreen;
+  border-bottom: 15px solid yellowgreen;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  color: yellowgreen;
+}
 
 footer {
   margin-top: 50px;
@@ -269,6 +276,37 @@ footer h5 a {
 }
 footer .fone {
   text-align: right;
+}
+footer .project-links {
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .project-links h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #36d036;
+  text-transform: uppercase;
+}
+footer .project-links a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+footer .project-links a:hover {
+  border: 1px solid yellowgreen;
+  color: yellowgreen;
+  box-shadow: 1px 1px 5px yellowgreen;
 }
 
 @media screen and (max-width: 414px) {
@@ -360,6 +398,50 @@ footer .fone {
   }
 }
 @media screen and (max-width: 375px) {
+  .habilidades {
+    flex-direction: column;
+  }
+  .habilidades img {
+    order: -1;
+  }
+  .habilidades .especifico .habili {
+    width: 90vw;
+  }
+
+  .estudos {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .estudos table {
+    width: 99wv;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .estudos .awari {
+    order: -1;
+  }
+
+  .razoes .motivos {
+    flex-direction: column;
+  }
+  .razoes .motivos .motivo {
+    width: 95vw;
+  }
+  .razoes h3 {
+    font-size: 25px;
+  }
+
+  footer .foot-head {
+    flex-direction: column;
+  }
+  footer .row {
+    flex-direction: column;
+  }
+  footer h5 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 320px) {
   .habilidades {
     flex-direction: column;
   }
