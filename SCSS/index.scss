@@ -131,6 +131,9 @@ nav{
             padding-bottom: 10px;
         }
     }
+    .especifico .habili:last-child{
+        border-bottom: 0;
+    }
     h5{
         margin-top: 0;
         margin-bottom: 0;
@@ -217,7 +220,6 @@ h3{
         flex-direction: column;
         justify-content: space-between;
         min-height: 520px;
-        width: 50vw;
 
         tr{
             margin-bottom: 0;
@@ -367,6 +369,24 @@ footer{
             box-shadow: 1px 1px 5px yellowgreen;
 
         }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .estudos{
+        padding: 0;
+    }
+    .estudos table:last-child{
+        margin-right: 0;
+    }
+    .projetos{
+
+        .project{
+            width: 50vw;
+        }
+    }
+    .projetos:last-child{
+        margin-right: 0;
     }
 }
 
